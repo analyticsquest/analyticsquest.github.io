@@ -300,17 +300,17 @@ simonSays <- "Great work, folks!"
     
 # Links to various R style guides
 
-[Google](https://google.github.io/styleguide/Rguide.xml): One of the first.
+[Style Guide for Python Code](https://peps.python.org/pep-0008/): A classic.
 
-[Hadley Wickham](http://adv-r.had.co.nz/Style.html): Hadley WIckham built on Google's guide ...
+[Jupyter Notebook best practices](https://towardsdatascience.com/jupyter-notebook-best-practices-f430a6ba8c69)
 
-[Hadley's Tidyverse](http://style.tidyverse.org/) ... and eventually re-organised everything.
+[Coding Standards for your Jupyter Notebooks](https://medium.com/@atma_mani/coding-standards-for-your-jupyter-notebooks-f4e2af7db3a9)
 
-[Microsoft](https://rattle.togaware.com/rattle-rstyle.html) A slightly different approach 
+[GCP Jupyter Notebooks Development Manifest](https://cloud.google.com/blog/products/ai-machine-learning/best-practices-that-can-improve-the-life-of-any-developer-using-jupyter-notebooks) Googlde Cloud Platform Guide
 
-[Rchaeology of Style](https://cran.r-project.org/web/packages/rockchalk/vignettes/Rstyle.pdf) Learning R style by looking at the R source code
+[Clean code in Jupyter Notebooks](https://www.slideshare.net/katenerush/clean-code-in-jupyter-notebooks)
 
-[C S Gillespie](https://csgillespie.wordpress.com/2010/11/23/r-style-guide/) R style and teaching
+[Space Telescope Science Institute Jupyter Notebook Style Guide](https://github.com/spacetelescope/style-guides/blob/master/guides/jupyter-notebooks.md)
 
  
  - - -
