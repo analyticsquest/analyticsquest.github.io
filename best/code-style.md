@@ -1,4 +1,4 @@
-R Style Guide I: Syntax
+Python Style Guide I: Syntax
 ========================================================
 
 
@@ -101,14 +101,14 @@ Try to develop a **consistent** style
 
 ## 1. Object names
 
-R is case-sensitive ... other software (M$, ...) is not.
+Python is case-sensitive ... other software (M$, ...) is not.
 
 ### Principles
 
  - Variable names should be nouns.
  - Function names should be verbs.
  - Concise and meaningful (hard!)
- - Avoid periods (used in R to indicate class).
+ - Avoid periods (used in indicate classes...more on that later).
  - Avoid writing over common names (e.g., sqrt!)
  
  
@@ -189,7 +189,9 @@ mean(1:10)
 
 - If you override the default, use the full argument name.
 ```
-dir.create("my_new_file.r", recursive = TRUE)
+import pandas as pd
+data = pd.read_csv("bwq.csv", full argument = XYZ)
+data
 ```
 
 
@@ -313,4 +315,4 @@ simonSays <- "Great work, folks!"
  
  - - -
 
-Updated: 2018-09-29
+Updated: 2022-12-10
