@@ -4,7 +4,7 @@ Python Style Guide I: Syntax
 
 ![](http://intro2r.github.io/img/mcqueen.jpg)
 
-*Steve McQueen, your (R) style guru*
+*Steve McQueen, your (Python) style guru*
 
 
 # 1. Why have a code style?
