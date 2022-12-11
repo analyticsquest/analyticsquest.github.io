@@ -218,11 +218,10 @@ for i in range(10):
 ```
 - Align arguments within a function if line overruns.
 ```
-#demo is the function name
 def demo(name, age):
     # this line is commented out and does not run.
     print(name, age)
-#call function
+
 demo("Ben", 25)
 ```
 
