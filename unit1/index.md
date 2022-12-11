@@ -1,22 +1,22 @@
 
 
-# Unit 1: Getting StaRted
+# Unit 1: Getting Started
 
-In this unit, you will become familiar with the R console, RStudio, and basic actions and operations in R.
+In this unit, you will become familiar with the Python in console, Jupyter Notebook, and basic actions and operations in Python.
 
 Follow the links to each lecture, lab, and reading.
 
-Scroll down to download the SWIRL lessons.
+Scroll down to download the lessons.
 
 
-## Lesson 1. What is R?
+## Lesson 1. What is Python?
 
-Lecture: [Overview of R](./r-overview.html), demonstration of R.
+Lecture: [Overview of Python](./r-overview.html), demonstration of Python.
 
 Learning Goals:
- - Understand what R can and cannot do,
- - Install R and RStudio,
- - Know how to navigate within RStudio.
+ - Understand what Python can and cannot do,
+ - Install Python and Jupyter Notebook,
+ - Know how to navigate within Jupyter Notebook.
 
 Lab: [Unit 1: Lab 1](../unit1/labs.html)
 
@@ -25,13 +25,13 @@ Reading: [NYT article, 2009](http://www.nytimes.com/2009/01/07/technology/busine
 Functions: None.
 
 
-## Lesson 2. How to use R as a calculator
+## Lesson 2. How to use Python as a calculator
 
 Lectures: 
 
- - [Working with R and RStudio](./first-look.html)
+ - [Working with Python and Jupyter Notebooks](./first-look.html)
  
- - [How to use SWIRL](../swirl.html)
+ - [How to use google, stackoverflow, reddit, medium](../swirl.html)
 
 Learning Goals:
  - Perform operations on numbers and integers,
