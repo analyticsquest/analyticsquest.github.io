@@ -1,6 +1,6 @@
 ---
 layout: default
-title: intro2r
+title: AnalyticsQuest
 ---
 # Introduction to Python
 
