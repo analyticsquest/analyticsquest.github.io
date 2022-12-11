@@ -277,21 +277,19 @@ x <- 1:10
 ```
 if condition:
     code code code
-
 ```
 - A semicolon in Python is mostly used to separate multiple statements written on a single line.
 ```
 for i in range (4): print ('Hi') ; print('Hello')
-
 output:
-Hi
-Hello
-Hi
-Hello
-Hi
-Hello
-Hi
-Hello
+  Hi
+  Hello
+  Hi
+  Hello
+  Hi
+  Hello
+  Hi
+  Hello
 ```
 
 ## 8. Quotes
@@ -308,17 +306,13 @@ Hello
 ```
 #single-quotes identifying 'Bob' and assigning to variable called name.
 name = 'Bob'
-
-# Double-quotes can be used in Natural language
+#Double-quotes can be used in Natural language
 print("It is easy to get confused with single and double quotes in Python.")
-
-# Double-quotes can be used String interpolation
+#Double-quotes can be used String interpolation
 print(f"{name} said there will be food.")
-
-# Double-quotes can be used to escape a character
+#Double-quotes can be used to escape a character
 print("We're going skiing this winter.")
-
-# Double-quotes can be used for Quotation inside a string
+#Double-quotes can be used for Quotation inside a string
 print("My favorite quote from Die Hard is 'Welcome to the party, pal'")
 ```
 
