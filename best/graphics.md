@@ -22,7 +22,7 @@ Luraschi,Javier 2020. [A curated list of awesome data visualization libraries an
 
 ## Checklists
 
-Green, S. [DataVizChecklist](https://datavizchecklist.stephanieevergreen.com/assets/DataVizChecklist_Feb2018.pdf)
+Green, S. [DataVizChecklist](https://stephanieevergreen.com/data-visualization-checklist/)
 
 [Graphics Princriples Cheatsheet](https://graphicsprinciples.github.io/)
 
