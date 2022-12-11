@@ -18,13 +18,13 @@ lunr_excludes: [atom.xml, 404.html, search.html, categories.md, tags.md, calenda
 title: intro2r
 tagline: It's not as bad as you think
 author:
-  name: Simon Queenborough
-  givenName: Simon
-  familyName: Queenborough
-  twitter: saqueenborough
+  name: Analytics Quest
+  givenName: analytics
+  familyName: quest
+  twitter: analyticsquest
   github: saq
-url: http://www.intro2r.info
-repo: https://github.com/intro2r/intro2r.github.io # used in linking history
+url: http://www.analyticsquest.org
+repo: https://github.com/analyticsquest/analyticsquest.github.io # used in linking history
 
 ## Google Analytics key (in _includes/analytics.html)
 #analytics: 
