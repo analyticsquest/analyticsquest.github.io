@@ -318,7 +318,7 @@ print("My favorite quote from Die Hard is 'Welcome to the party, pal'")
 
 
     
-# Links to various Python and Jupyter Notebook style guides
+## Links to various Python and Jupyter Notebook style guides
 
 [Guiding Principles - first the style principles](https://explog.in/notes/nbstyle.html) - A good first read for notebook style.
 
