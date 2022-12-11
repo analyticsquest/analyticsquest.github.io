@@ -297,19 +297,19 @@ output:
 
 ### Best Practice
 
-- Double quotes ``` " " ``` and single quotes ``` ' ' ``` are usually **interchangable**.
-- Double quotes are **preferred** because of the use of apostrophes in text strings.
+- Double quotes ``` " " ``` and single quotes ``` ' ' ``` are not **interchangable**.
 
+
+- Single-quotes identifying 'Bob' and assigning to variable called name.
 ```
-#single-quotes identifying 'Bob' and assigning to variable called name.
 name = 'Bob'
-#Double-quotes can be used in Natural language
+```
+-Double-quotes can be used in Natural language
+```
 print("It is easy to get confused with single and double quotes in Python.")
-#Double-quotes can be used String interpolation
-print(f"{name} said there will be food.")
-#Double-quotes can be used to escape a character
-print("We're going skiing this winter.")
-#Double-quotes can be used for Quotation inside a string
+```
+-Double-quotes can be used for Quotation inside a string
+```
 print("My favorite quote from Die Hard is 'Welcome to the party, pal'")
 ```
 
