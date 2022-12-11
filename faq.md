@@ -12,7 +12,7 @@ A. Installing
 
 B. Submitting labs
 
-C. The R console
+C. The Jupyter console
 
 D. Error messages
 
@@ -23,7 +23,7 @@ E. Getting more help
 
 Help getting your computer set up to do the course.
 
-## 1. How do I install R and RStudio?
+## 1. How do I install Python and Jupyter Notebook?
 
 Link the page [here](http://www.intro2r.info/unit1/install-R-and-RStudio.html)
 
