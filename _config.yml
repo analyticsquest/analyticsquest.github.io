@@ -15,13 +15,13 @@ lunr_excludes: [atom.xml, 404.html, search.html, categories.md, tags.md, calenda
 
 ## Useful metadata, available to a liquid filter as site.title, site.author.name, etc
 ## Used in _includes templates headers and footers.
-title: intro2r
+title: AnalyticsQuest
 tagline: It's not as bad as you think
 author:
   name: Analytics Quest
   givenName: analytics
   familyName: quest
-  twitter: analyticsquest
+  twitter: analytics_quest
   github: saq
 url: http://www.analyticsquest.org
 repo: https://github.com/analyticsquest/analyticsquest.github.io # used in linking history
