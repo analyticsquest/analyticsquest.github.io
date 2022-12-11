@@ -140,10 +140,11 @@ Python is case-sensitive ... other software (M$, ...) is not.
 
 Put a space:
 
- - Before and after all operators (```=, +, -, <-```, etc...).
+ - Before and after all operators (```=, +, -, /, *```, etc...).
     ``` 
     1 + 3
     x / y
+    x * y 
     ```
  - Arguments in function calls.
     ```
@@ -153,10 +154,9 @@ Put a space:
     ```
     1:10
     ```
- - Use extra spacing to improve alignment.
+ - Use extra spacing to for readability.
     ```
-    new_var <- 1:10
-    x       <- 10:1
+    new_var = 1:10
     ```
  - No spaces around ```()``` or ```[]```, unless there is a ```,```.
     ```
@@ -165,7 +165,7 @@ Put a space:
     ```
  
 
- 
+
 ## 3. Argument names
 
 Two kinds of arguments:
