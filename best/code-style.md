@@ -211,21 +211,18 @@ data
 - Use consistent indenting (2 or 4 spaces, never TABS).
 - Always indent after function or loop colon.
 ```
-# an example of a loop (we will do this later in the course)
+#an example of a loop (we will do this later in the course)
 for i in range(10):
-  sum = sum(1+i)
-  print sum
+    sum = sum(1+i)
+    print sum
 ```
-
-
 - Align arguments within a function if line overruns.
 ```
-# demo is the function name
+#demo is the function name
 def demo(name, age):
     # this line is commented out and does not run.
     print(name, age)
-
-# call function
+#call function
 demo("Ben", 25)
 ```
 
