@@ -290,7 +290,7 @@ See [here](https://stackoverflow.com/questions/1741820/what-are-the-differences-
 - Double quotes are **preferred** because of the use of apostrophes in text strings.
 
 ```
-simonSays <- "Great work, folks!"
+simonSays = "Great work, folks!"
 ```
 
 [R help Quotes](https://stat.ethz.ch/R-manual/R-devel/library/base/html/Quotes.html)
@@ -298,17 +298,19 @@ simonSays <- "Great work, folks!"
 
 
     
-# Links to various R style guides
+# Links to various Python and Jupyter Notebook style guides
 
-[Style Guide for Python Code](https://peps.python.org/pep-0008/): A classic.
+[Guiding Principles - first the style principles](https://explog.in/notes/nbstyle.html) - A good first read for notebook style.
 
 [Jupyter Notebook best practices](https://towardsdatascience.com/jupyter-notebook-best-practices-f430a6ba8c69)
 
 [Coding Standards for your Jupyter Notebooks](https://medium.com/@atma_mani/coding-standards-for-your-jupyter-notebooks-f4e2af7db3a9)
 
-[GCP Jupyter Notebooks Development Manifest](https://cloud.google.com/blog/products/ai-machine-learning/best-practices-that-can-improve-the-life-of-any-developer-using-jupyter-notebooks) Googlde Cloud Platform Guide
+[GCP Jupyter Notebooks Development Manifest](https://cloud.google.com/blog/products/ai-machine-learning/best-practices-that-can-improve-the-life-of-any-developer-using-jupyter-notebooks) Google Cloud Platform Guide
 
 [Clean code in Jupyter Notebooks](https://www.slideshare.net/katenerush/clean-code-in-jupyter-notebooks)
+
+[Style Guide for Python Code](https://peps.python.org/pep-0008/) - A classic.
 
 [Space Telescope Science Institute Jupyter Notebook Style Guide](https://github.com/spacetelescope/style-guides/blob/master/guides/jupyter-notebooks.md)
 
