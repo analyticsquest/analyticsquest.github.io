@@ -7,9 +7,9 @@ Scroll down or click [here](../unit1/labs.html#how-to-submit-your-labs) to check
 
 # Lab 1
 
-1. Read the [New York Times](http://www.nytimes.com/2009/01/07/technology/business-computing/07program.html?_r=1&pagewanted=all) and [Quartz](https://qz.com/1661487/hadley-wickham-on-the-future-of-r-python-and-the-tidyverse/) articles on R.
+1. Read the [Executive Summary of Python](https://www.python.org/doc/essays/blurb/)
 
-2. [Install R and RStudio](http://www.intro2r.info/unit1/install-R-and-RStudio.html).
+2. [Install Python and Jupyter Notebooks](https://docs.jupyter.org/en/latest/install/notebook-classic.html#:~:text=Prerequisite%3A%20Python,for%20installing%20the%20Jupyter%20Notebook.).
 
  - - -
 
@@ -18,7 +18,7 @@ Scroll down or click [here](../unit1/labs.html#how-to-submit-your-labs) to check
 
 ## Simple Operations
 
-### 1. Perform the following basic operations in the R console:
+### 1. Perform the following basic operations in a Jupyter Notebook:
 
   a. Add 3 and 5.
 
