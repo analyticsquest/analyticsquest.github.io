@@ -15,9 +15,9 @@ Healy, K. 2018. [Data Visualization: A Practical Introduction](http://socviz.co/
 
 Stephen Few's [books and blog](http://www.perceptualedge.com/)
 
-Kabacof, R. 2018. [Data Visualisation with R](https://rkabacoff.github.io/datavis/)
+PyViz.org 2019. [Lists libraries for visualizing data in Python.](https://pyviz.org/tools)
 
-Peng, R.D. 2020. (Exploratory Data Analysis with R](https://bookdown.org/rdpeng/exdata/) 
+Luraschi,Javier 2020. [A curated list of awesome data visualization libraries and resources.](https://github.com/javierluraschi/awesome-dataviz) 
 
 
 ## Checklists
