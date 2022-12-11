@@ -4,7 +4,7 @@
 
 # Unit 1: [Getting Started](/unit1/)
 
-1. What is Python?
+1. What is Python and Jupyter Notebook?
 
 2. How to use Python as a calculator
 
