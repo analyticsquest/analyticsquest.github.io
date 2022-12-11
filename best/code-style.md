@@ -203,13 +203,13 @@ data
 - Make code easier to read, aligning related lines.
 
 
-
 ### Best Practice
 
 
 - Spaces are the preferred indentation method. Tabs should be used solely to remain consistent with code that is already indented with tabs. Python disallows mixing tabs and spaces for indentation.
 - Use consistent indenting (2 or 4 spaces, never TABS).
 - Always indent after function or loop colon.
+
 ```
 #an example of a loop (we will do this later in the course)
 for i in range(10):
@@ -217,15 +217,13 @@ for i in range(10):
     print sum
 ```
 - Align arguments within a function if line overruns.
+- 
 ```
 def demo(name, age):
     # this line is commented out and does not run.
     print(name, age)
-
 demo("Ben", 25)
 ```
-
-=======
 
 ## 5. Long lines
 
@@ -248,7 +246,6 @@ income = (gross_wages
           - ira_deduction
           - student_loan_interest)
 ```
-
 
 ## 6. Assignment
 
