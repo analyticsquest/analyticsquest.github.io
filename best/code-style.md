@@ -2,7 +2,7 @@ Python Style Guide I: Syntax
 ========================================================
 
 
-![](http://intro2r.github.io/img/style.jpg)
+![](http://analyticsquest.github.io/img/style.jpg)
 
 *Find your inner (Python) style*
 
