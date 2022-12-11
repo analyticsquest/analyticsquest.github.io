@@ -206,20 +206,27 @@ data
 
 ### Best Practice
 
+
+- Spaces are the preferred indentation method. Tabs should be used solely to remain consistent with code that is already indented with tabs. Python disallows mixing tabs and spaces for indentation.
 - Use consistent indenting (2 or 4 spaces, never TABS).
-- Always indent after curly braces.
+- Always indent after function or loop colon.
 ```
 # an example of a loop (we will do this later in the course)
-for i in 1:10 {
-  x <- 1 + 1
-}
+for i in range(10):
+  sum = sum(1+i)
+  print sum
 ```
 
 
 - Align arguments within a function if line overruns.
 ```
-dir.create(file.path("testdir2", "testdir3"), 
-               recursive = TRUE)
+# demo is the function name
+def demo(name, age):
+    # this line is commented out and does not run.
+    print(name, age)
+
+# call function
+demo("Ben", 25)
 ```
 
 =======
@@ -233,12 +240,17 @@ dir.create(file.path("testdir2", "testdir3"),
 
 ### Best Practice
 
-- Try and limit to 80 characters per line.
-- If a function call is too long for one line, use one line each for the function name, each argument, and closing ```)```.
+- Try and limit to 72 characters per line.
+- If a function call is too long for one line, use one line each for the function name, each argument, and closing
+- Donald Knuth explains the traditional rule in his Computers and Typesetting series: “Although formulas within a paragraph always break after binary operations and relations, displayed formulas always break before binary operations”.
 ```
-seq(from = 1,
-      to = 100,
-      by = 5)
+# Correct:
+# easy to match operators with operands
+income = (gross_wages
+          + taxable_interest
+          + (dividends - qualified_dividends)
+          - ira_deduction
+          - student_loan_interest)
 ```
 
 
@@ -250,39 +262,47 @@ seq(from = 1,
 
 ### Best Practice
 
-- Use ``` <- ``` for assignment.
-
-- Never use ``` = ```.
-
-- R was redesigned early on to permit use of ```=``` **in most cases but not all**.
+- Use ``` = ``` for assignment.
 
 ```
+#Yes, x assigned value of 10
+x = 10
+
+# No, no, no, no, no, nooooooooooo, this is the R language below, not python. 
 x <- 1:10
-
-# No, no, no, no, no, nooooooooooo ...
-x = 1:10
 ```
 
-See [here](https://stackoverflow.com/questions/1741820/what-are-the-differences-between-and-in-r?rq=1) for lots of gory details and discussion.
 
-
-## 7. Semicolons
+## 7. Colons and Semicolons
 
 ### Principle
 
-- Do not use them.
+- A colon is required at the beginning of every block of code.
+```
+if condition:
+    code code code
 
-### Best Practice
+```
+- A semicolon in Python is mostly used to separate multiple statements written on a single line.
+```
+for i in range (4): print ('Hi') ; print('Hello')
 
-- Do not use them.
-
+output:
+Hi
+Hello
+Hi
+Hello
+Hi
+Hello
+Hi
+Hello
+```
 
 ## 8. Quotes
 
 ### Principle
 
-- Correct identification of text.
-- Correct identification of escaped sequence inside character strings.
+- Use single-quotes for string literals, e.g. 'my-identifier', but use double-quotes for strings that are likely to contain single-quote characters as part of the string itself (such as error messages, or any strings containing natural language), e.g. "You've got an error!".
 
 ### Best Practice
 
@@ -290,10 +310,23 @@ See [here](https://stackoverflow.com/questions/1741820/what-are-the-differences-
 - Double quotes are **preferred** because of the use of apostrophes in text strings.
 
 ```
-simonSays = "Great work, folks!"
+#single-quotes identifying 'Bob' and assigning to variable called name.
+name = 'Bob'
+
+# Double-quotes can be used in Natural language
+print("It is easy to get confused with single and double quotes in Python.")
+
+# Double-quotes can be used String interpolation
+print(f"{name} said there will be food.")
+
+# Double-quotes can be used to escape a character
+print("We're going skiing this winter.")
+
+# Double-quotes can be used for Quotation inside a string
+print("My favorite quote from Die Hard is 'Welcome to the party, pal'")
 ```
 
-[R help Quotes](https://stat.ethz.ch/R-manual/R-devel/library/base/html/Quotes.html)
+[Python Single vs. Double Quotes - Which Should You Use And Why?](https://betterdatascience.com/python-single-vs-double-quotes/)
 
 
 
