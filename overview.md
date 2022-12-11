@@ -2,11 +2,11 @@
 
 # Overview of the Units
 
-# Unit 1: [Getting StaRted](/unit1/)
+# Unit 1: [Getting Started](/unit1/)
 
-1. What is R?
+1. What is Python?
 
-2. How to use R as a calculator
+2. How to use Python as a calculator
 
 3. How to create and subset vectors
 
@@ -20,7 +20,7 @@
 
 2. How to extract subsets of data
 
-3. How to get data into and out of R
+3. How to get data into and out of Python
 
 4. How to work with and access lists
 
@@ -72,5 +72,5 @@
 
  - - -
 
-Updated: 2018-09-08
+Updated: 2022-12-10
 
