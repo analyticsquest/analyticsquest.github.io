@@ -2,9 +2,9 @@ Python Style Guide I: Syntax
 ========================================================
 
 
-![](http://intro2r.github.io/img/mcqueen.jpg)
+![](http://intro2r.github.io/img/style.jpg)
 
-*Steve McQueen, your (Python) style guru*
+*Find your inner (Python) style*
 
 
 # 1. Why have a code style?
